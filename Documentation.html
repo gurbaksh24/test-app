@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="header">
+  <a href="#default" class="logo"><img src="Images/Logo/HotelShape4.png" class="Logo" style="height: 60px"></a>
+  <div class="header-right">
+    <a class="back" href="#back">Back</a>
+  </div>
+</div>
+    
+<div class="tab">
+  <button class="tablinks" onclick="ActiveContent(event, 'Default')" id="defaultOpen">About</button>
+  <button class="tablinks" onclick="ActiveContent(event, 'Buttons')">Buttons</button>
+  <button class="tablinks" onclick="ActiveContent(event, 'Input-Tags')">Input Tags</button>
+</div>
+
+<div id="Default" class="tabcontent">
+  <center><h3>About Hotel Booking Website</h3></center>
+  <center><p>By Backbone Team</p></center>
+</div>
+<div id="Buttons" class="tabcontent">
+  <h3>Button</h3>
+  <p>Description About Buttons</p>
+            <div class="tab-inside">
+            <button class="Insidetablinks" onclick="ActiveInsideContent(event, 'Search')">Search Button</button>
+            <button class="Insidetablinks" onclick="ActiveInsideContent(event, 'Available')">Available Button</button>
+            <button class="Insidetablinks" onclick="ActiveInsideContent(event, 'Partially')">Partially Button</button>
+            <button class="Insidetablinks" onclick="ActiveInsideContent(event, 'NotAvailable')">NotAvailable Button</button>
+        </div>
+</div>
+    
+<div id="Search" class="Insidetabcontent">
+  <center><h3>Search Button</h3></center>
+  <center><p>By Backbone Team</p></center>
+</div>
+<div id="Available" class="Insidetabcontent">
+  <center><h3>Available Button</h3></center>
+  <center><p>By Backbone Team</p></center>
+</div>
+<div id="Partially" class="Insidetabcontent">
+  <center><h3>Partially Button</h3></center>
+  <center><p>By Backbone Team</p></center>
+</div>
+<div id="NotAvailable" class="Insidetabcontent">
+  <center><h3>NotAvailable Button</h3></center>
+  <center><p>By Backbone Team</p></center>
+</div>
+    
+<div id="Input-Tags" class="tabcontent">
+  <h3>Input Tags</h3>
+  <p>Description About Input-Tags.</p> 
+</div>
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>

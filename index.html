@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylefront.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo"><img src="Images/Logo/HotelShape4.png" class="Logo" style="height: 60px"></a>
+        <div class="header-right">
+            <a class="back" href="Documentation.html">Documentation</a>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="search-section">
+                <div class="search-box">
+                    <input class="search" name="hotels" type="text" placeholder="Search" />
+                </div>
+                <div>
+                    <span>From:</span>
+                    <input type="date" class="start-date" id="start">
+                    <!--                    <input id="start" name="startDate" class="start-date" type="datetime" size="12" maxlength="10" placeholder="DD/MM/YYYY" autocomplete="off" />-->
+                </div>
+                <div>
+                    <span>To:</span>
+                    <input type="date" class="last-date">
+                    <!--                    <input class="last-date" name="endDate" type="type" size="12" maxlength="10" placeholder="DD/MM/YYYY" autocomplete="off" />-->
+                </div>
+                <div>
+                    <button class="search-button">
+                            <img class="search-image" src="Images/search.png"/>  
+                        </button>
+                </div>
+            </div>
+            <div class="hotel-list">
+            </div>
+        </div>
+    </main>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scriptFront.js"></script>
+</body>
+</html>
